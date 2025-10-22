@@ -41,7 +41,7 @@ class Queue {
 
   dequeue() {
     if (!this.head) {
-      return null;
+      return; // null;
     }
     let value = this.head.value;
     this.head = this.head.next;
